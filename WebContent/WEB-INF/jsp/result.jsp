@@ -10,8 +10,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<!--<link href="css/style.css" rel="stylesheet" type="text/css"/>-->
-<!-- BootstrapのCSS読み込み -->
 <link href="css/style.css" rel="stylesheet" type="text/css"/>
 <title>sample</title>
 </head>
@@ -24,6 +22,6 @@
 			親から<%= testerLogic[1] %>点<br> 子から<%= testerLogic[2] %>点
 		<%} %>
 	</p>
-	<a href="/portfolioshibutani/index.jsp">TOPへ</a>
+	<a href="/portfolio_1/index.jsp">TOPへ</a>
 </body>
 </html>
