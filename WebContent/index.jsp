@@ -4,50 +4,25 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<!-- <link href="css/style.css" rel="stylesheet" type="text/css"/>-->
-
-<!-- BootstrapのCSS読み込み -->
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css" />
 <title>点数計算</title>
 </head>
 <body>
-	<h1>点数計算</h1>
-		<form action="/portfolioshibutani/TesterServlet" method="post" class="form-horizontal">
-			<div class="form-group">
-				<label class="control-label col-xs-2">符</label>
-				<div class="col-xs-2">
-					<input type="text" name="fu" id="fu" class="form-control">
-				</div>
-			</div>
-			<div class="form-group">
-				<label class="control-label col-xs-2">翻</label>
-				<div class="col-xs-2">
-					<input type="text" name="han" id="han" class="form-control">
-
-				</div>
-			</div>
-				<div class="form-group">
-					<label class="control-label col-xs-2">親子</label>
-					<div class="col-xs-1">
-						<select name="oyako" class="form-control">
-							<option value="1">親</option>
-							<option value="2" selected="selected">子</option>
-						</select>
-					</div>
-				</div>
-				<br>
-				<div class="form-group">
-					<div class="col-xs-offset-2 col-xs-10">
-						<input type="submit" value="計算開始" class="btn btn-primary">
-					</div>
-				</div>
+	<div class="formcss">
+		<form action="/portfolio_1/TesterServlet" method="post">
+			<select name="oyako">
+				<option value="1">親</option>
+				<option value="2">子</option>
+			</select> 符<input type="text" name="fu" class="demo2_1"><br> 翻<input
+				type="text" name="han" class="demo2_2"><br> <input
+				type="submit" value="計算開始">
 		</form>
-	<table border=0>
+	</div>
+	<table border=1>
 		<tr>
 			<td valign="top">
 				<!-- 符のテーブル-->
-				<table class="table table-striped">
+				<table class="brwsr2">
 					<tbody>
 						<tr>
 							<th>基本符</th>
@@ -116,7 +91,7 @@
 
 			<td valign="top">
 				<!-- 翻のテーブル -->
-				<table class="table table-striped"style="margin-left:2em;">
+				<table class="brwsr2">
 					<tbody>
 						<tr>
 							<th>1翻役</th>
@@ -219,7 +194,5 @@
 			</td>
 		</tr>
 	</table>
-	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>

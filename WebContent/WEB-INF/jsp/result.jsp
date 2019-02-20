@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <!--<link href="css/style.css" rel="stylesheet" type="text/css"/>-->
 <!-- BootstrapのCSS読み込み -->
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
 <title>sample</title>
 </head>
 <body>
@@ -25,7 +25,5 @@
 		<%} %>
 	</p>
 	<a href="/portfolioshibutani/index.jsp">TOPへ</a>
-	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-	<script	src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
