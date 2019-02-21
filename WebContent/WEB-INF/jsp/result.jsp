@@ -14,7 +14,7 @@
 <title>sample</title>
 </head>
 <body>
-	<p class="text-primary" style="font-size: 30px;">
+	<p style="font-size: 30px;">
 		合計<%= testerLogic[0] %>点<br>
 		<%if(oyako.equals("1")){%>
 			みんなから<%= testerLogic[1] %>点<br>
